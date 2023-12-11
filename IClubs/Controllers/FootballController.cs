@@ -32,5 +32,18 @@ namespace IClubs.Controllers
             return Ok(result);
 
         }
+
+
+        /// <summary>
+        /// "Goal Keeper Catching The Ball
+        /// </summary>
+        /// <returns></returns>
+        [HttpPost("goal_keeper_catching_ball")]
+        public async Task<IActionResult> CatchingBall()
+        {
+            var result = await Task.FromResult<string>("Goal Keeper Catching The Ball");
+            return Ok(result);
+
+        }
     }
 }
