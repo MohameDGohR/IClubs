@@ -41,7 +41,7 @@ namespace IClubs.Controllers
         [HttpPost("goal_keeper_catching_ball")]
         public async Task<IActionResult> CatchingBall()
         {
-            var result = await Task.FromResult<string>("Goal Keeper Catching The Ball");
+            var result = await Task.FromResult<string>("Goal Keeper Catching The Ball 1 and goal keeper 1");
             return Ok(result);
 
         }
