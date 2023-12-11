@@ -58,5 +58,19 @@ namespace IClubs.Controllers
             return Ok(result);
 
         }
+
+
+
+        /// <summary>
+        /// player hit ball
+        /// </summary>
+        /// <returns></returns>
+        [HttpPost("player_hit_ball")]
+        public async Task<IActionResult> hitBall()
+        {
+            var result = await Task.FromResult<string>("yhe player hits ball");
+            return Ok(result);
+
+        }
     }
 }
