@@ -19,5 +19,18 @@ namespace IClubs.Controllers
         
         }
 
+
+
+        /// <summary>
+        /// passing Football
+        /// </summary>
+        /// <returns></returns>
+        [HttpPost("passing_football")]
+        public async Task<IActionResult> passingFootball()
+        {
+            var result = await Task.FromResult<string>("passing Football");
+            return Ok(result);
+
+        }
     }
 }
