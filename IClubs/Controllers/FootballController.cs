@@ -32,6 +32,7 @@ namespace IClubs.Controllers
             return Ok(result);
 
         }
+<<<<<<< HEAD
 
 
         /// <summary>
@@ -72,5 +73,7 @@ namespace IClubs.Controllers
             return Ok(result);
 
         }
+=======
+>>>>>>> parent of 62a620d (Goal Keeper catching the ball)
     }
 }
