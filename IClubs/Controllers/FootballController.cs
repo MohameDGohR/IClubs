@@ -14,7 +14,7 @@ namespace IClubs.Controllers
         [HttpPost("play_football")]
         public async Task<IActionResult> PlayIngFootball()
         {
-            var result = await Task.FromResult<string>("Playing Football");
+            var result = await Task.FromResult<string>("Playing Football1");
             return Ok(result);
         
         }
@@ -28,7 +28,7 @@ namespace IClubs.Controllers
         [HttpPost("passing_football")]
         public async Task<IActionResult> passingFootball()
         {
-            var result = await Task.FromResult<string>("passing Football");
+            var result = await Task.FromResult<string>("passing Football1");
             return Ok(result);
 
         }
@@ -41,7 +41,7 @@ namespace IClubs.Controllers
         [HttpPost("goal_keeper_catching_ball")]
         public async Task<IActionResult> CatchingBall()
         {
-            var result = await Task.FromResult<string>("Goal Keeper Catching The Ball");
+            var result = await Task.FromResult<string>("Goal Keeper Catching The Ball2");
             return Ok(result);
 
         }
